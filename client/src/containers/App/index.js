@@ -20,7 +20,7 @@ class App extends Component {
       metricUnitFormValues,
       calculateMetricUnits,
       calculateUsUnits
-    } = this.props
+    } = this.props;
     evt.preventDefault();
     if (formType === 'usUnit') {
       calculateUsUnits(usUnitFormValues)
@@ -36,7 +36,7 @@ class App extends Component {
     if (result < 16) {
       justification = 'Severe Thinness'
     } else if (result >= 18.5 || result <= 25) {
-      justification = 'normal'
+      justification = 'Normal'
     } else if (result >= 16 || result <= 17) {
       justification = 'Moderate Thinness'
     } else if (result >= 17 || result <= 18.5) {

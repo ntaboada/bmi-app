@@ -1,11 +1,6 @@
 var router = require('express').Router();
 var UserController = require('./users.controller');
 
-// GET route for reading data
-router.get('/', function (req, res, next) {
-    return res.sendFile(path.join(__dirname + '/templateLogReg/index.html'));
-});
-
 
 //POST route for updating data
 router.post('/', function (req, res, next) {

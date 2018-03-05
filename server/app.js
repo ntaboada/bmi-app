@@ -55,9 +55,6 @@ app.use(function (req, res, next) {
 var routes = require('./routes/index');
 app.use('/api', routes);
 
-// serve static files from template
-app.use(express.static(__dirname + '/templateLogReg'));
-
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
     var err = new Error('File Not Found');
