@@ -11,7 +11,7 @@ $ git clone https://github.com/ntaboada/bmi-app.git
 
 ## Build Setup
 
--- On Server
+On Server:
 
 ```
 $ cd bmi-app/server
@@ -19,7 +19,7 @@ $ cd bmi-app/server
 $ yarn
 ```
 
-Also you have to create an .env file having:
+Also you have to create an .env (on server root directory) file having:
 
 ```
 PORT=XXX
@@ -29,13 +29,13 @@ DB_PORT=XXX
 DB_NAME=XXX
 ```
 
--- On Client
+On Client:
 
 ```
 $ cd bmi-app/client
 
 $ yarn
-
+```
 
 ## How to use
 
